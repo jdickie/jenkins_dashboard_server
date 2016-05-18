@@ -4,12 +4,16 @@
   "description": "An ExpressJS server integrating with the Jenkins API",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "bootup" : "npm install & nodemon server.js",
+    "start": "nodemon server.js",
+    "prodmode": "npm server.js"
   },
   "author": "gdickie@npr.org",
   "license": "ISC",
   "dependencies": {
     "async": "^2.0.0-rc.5",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2"
   }
 }
