@@ -1,0 +1,15 @@
+{
+  "name": "jenkins_dashboard_server",
+  "version": "1.0.0",
+  "description": "An ExpressJS server integrating with the Jenkins API",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "gdickie@npr.org",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "express": "^4.13.4"
+  }
+}
