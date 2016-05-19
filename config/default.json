@@ -31,12 +31,6 @@
                 "name": "_TAF_Stage1_Seamus"
             }, {
                 "folder": "",
-                "name": "_Stage1_Mobile_NPR_One_Android_1.6.5.5_Emulator_TestSuite"
-            }, {
-                "folder": "",
-                "name": "_Stage1_Mobile_NPR_One_Android_1.6.7.0_Emulator_TestSuite"
-            }, {
-                "folder": "",
                 "name": "NPR One Webapp v2 - E2E - Mac - Chrome - Stage 1"
             }]
         },
