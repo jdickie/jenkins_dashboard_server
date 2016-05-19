@@ -59,5 +59,64 @@
         }
       ]
     }
+  },
+  "stage-branch": {
+      "build_jobs": [
+        {
+          "name" : "stage-branch - CI - www"
+        },
+        {
+          "name" : "stage-branch - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder" : "StageBranch_Seamus",
+          "name" : "_StageBranch_Seamus_Master"
+        }
+      ]
+    }
+  },
+  "stage-branch2": {
+      "build_jobs": [
+        {
+          "name" : "stage-branch2 - CI - www"
+        },
+        {
+          "name" : "stage-branch2 - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder" : "StageBranch2_WWW",
+          "name" : "_StageBranch2_Api_Master"
+        },
+        {
+          "folder" : "StageBranch2_WWW",
+          "name" : "_StageBranch2_Carbon_Master"
+        }
+      ]
+    }
+  },
+  "stage-mem": {
+      "build_jobs": [
+        {
+          "name" : "stage-mem - CI - www"
+        },
+        {
+          "name" : "stage-mem - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder" : "StageMem_WWW",
+          "name" : "_StageMem_Api_Master"
+        },
+        {
+          "folder" : "StageMem_WWW",
+          "name" : "_StageMem_Carbon_Master"
+        }
+      ]
+    }
   }
 }
