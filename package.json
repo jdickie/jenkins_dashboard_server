@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "start": "nodemon server.js",
-    "jenkinsBuild" : "npm install; nodemon server.js"
+    "jenkinsBuild": "npm install; nodemon server.js"
   },
   "author": "Grant Dickie <gdickie@npr.org>, Bill Claytor <wclaytor@npr.org>",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "express": "^4.13.4",
     "lodash": "^4.12.0",
     "nodemon": "^1.9.2",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "urlencode": "^1.1.0"
   }
 }
