@@ -13,24 +13,50 @@
   "environments": {
     "stage1": {
       "build_jobs": [
-        "stage1 - Merge, Update Code and Database",
-        "stage1 - Update Code"
+        {
+          "name" : "stage1 - Merge, Update Code and Database"
+        },
+        {
+          "name" : "stage1 - Update Code"
+        }
       ],
       "test_jobs": [
-        "WWW Api Tests for Stage1 :: Higgins",
-        "Carbon API Tests for Stage1 :: Higgins",
-        "Seamus Tests for Stage1 :: Higgins"
+        {
+          "folder" : "Stage1_WWW",
+          "name" : "WWW Api Tests for Stage1 :: Higgins"
+        },
+        {
+          "folder" : "Stage1_WWW",
+          "name" : "Carbon API Tests for Stage1 :: Higgins"
+        },
+        {
+          "folder" : "Stage1_Seamus",
+          "name" : "Seamus Tests for Stage1 :: Higgins"
+        }
       ]
     },
     "stage4": {
       "build_jobs": [
-        "stage4 - CI - www",
-        "stage4 - CI - Seamus"
+        {
+          "name" : "stage4 - CI - www"
+        },
+        {
+          "name" : "stage4 - CI - Seamus"
+        }
       ],
       "test_jobs": [
-        "WWW Api Tests for Stage4 :: Higgins",
-        "Carbon API Tests for Stage4 :: Higgins",
-        "Seamus Tests for Stage4 :: Higgins"
+        {
+          "folder" : "Stage4_WWW",
+          "name" : "_Stage4_Api_Master"
+        },
+        {
+          "folder" : "Stage4_WWW",
+          "name" : "_Stage4_Carbon_Master"
+        },
+        {
+          "folder" : "Stage4_Seamus",
+          "name" : "_Stage4_Seamus_Master"
+        }
       ]
     }
   }
