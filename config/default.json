@@ -23,15 +23,15 @@
       "test_jobs": [
         {
           "folder" : "Stage1_WWW",
-          "name" : "_Stage4_Api_Master"
+          "name" : "_Stage1_Api_Master"
         },
         {
           "folder" : "Stage1_WWW",
-          "name" : "_Stage4_Carbon_Master"
+          "name" : "_Stage1_Carbon_Master"
         },
         {
           "folder" : "Stage1_Seamus",
-          "name" : "_Stage4_Seamus_Master"
+          "name" : "_Stage1_Seamus_Master"
         }
       ]
     },
