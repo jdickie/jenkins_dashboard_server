@@ -1,33 +1,37 @@
 {
-   "allServers" : ["stage4", "stage1", "stage-branch2", "stage-branch", "stage-mem"],
-   "jenkinsServers" : {
-        "build" : "jenkins.npr.org",
-        "test" : "higgins.npr.org" 
-    },   
-    "environments" : {
-        "stage1": {
-              "build_jobs": [
-                       "stage1 - Merge, Update Code and Database",
-                       "stage1 - Update Code"
-                     ],
-              "test_jobs" : [
-                       "WWW Api Tests for Stage1 :: Higgins",
-                       "Carbon API Tests for Stage1 :: Higgins",
-                       "Seamus Tests for Stage1 :: Higgins"
-                     ]
-         }
-     },
-      "stage4" : {
-      
-          "build_jobs" : [
-                   "stage4 - CI - www",
-                   "stage4 - CI - Seamus"
-                 ],
-    
-          "test_jobs" : [
-                   "WWW Api Tests for Stage4 :: Higgins",
-                   "Carbon API Tests for Stage4 :: Higgins",
-                   "Seamus Tests for Stage4 :: Higgins"
-                 ]
-     }
+  "allServers": [
+    "stage4",
+    "stage1",
+    "stage-branch2",
+    "stage-branch",
+    "stage-mem"
+  ],
+  "jenkinsServers": {
+    "build": "jenkins.npr.org",
+    "test": "higgins.npr.org"
+  },
+  "environments": {
+    "stage1": {
+      "build_jobs": [
+        "stage1 - Merge, Update Code and Database",
+        "stage1 - Update Code"
+      ],
+      "test_jobs": [
+        "WWW Api Tests for Stage1 :: Higgins",
+        "Carbon API Tests for Stage1 :: Higgins",
+        "Seamus Tests for Stage1 :: Higgins"
+      ]
+    },
+    "stage4": {
+      "build_jobs": [
+        "stage4 - CI - www",
+        "stage4 - CI - Seamus"
+      ],
+      "test_jobs": [
+        "WWW Api Tests for Stage4 :: Higgins",
+        "Carbon API Tests for Stage4 :: Higgins",
+        "Seamus Tests for Stage4 :: Higgins"
+      ]
+    }
+  }
 }
