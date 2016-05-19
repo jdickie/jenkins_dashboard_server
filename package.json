@@ -5,9 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "jenkinsBuild" : "npm install; nodemon server.js"
   },
-  "author": "gdickie@npr.org",
+  "author": "Grant Dickie <gdickie@npr.org>, Bill Claytor <wclaytor@npr.org>",
   "license": "ISC",
   "dependencies": {
     "async": "^2.0.0-rc.5",
