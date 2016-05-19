@@ -1,88 +1,119 @@
 {
-    "allServers": [
-        "stage4",
-        "stage1",
-        "stage-branch2",
-        "stage-branch",
-        "stage-mem"
-    ],
-    "jenkinsServers": {
-        "build": "jenkins.npr.org",
-        "test": "higgins.npr.org"
-    },
-    "environments": {
-        "stage1": {
-            "build_jobs": [{
-                "name": "stage1 - Merge, Update Code and Database"
-            }, {
-                "name": "stage1 - Update Code"
-            }],
-            "test_jobs": [{
-                "folder": "Stage1_WWW",
-                "name": "_Stage1_Api_Master"
-            }, {
-                "folder": "Stage1_WWW",
-                "name": "_Stage1_Carbon_Master"
-            }, {
-                "folder": "Stage1_Seamus",
-                "name": "_Stage1_Seamus_Master"
-            }]
+  "allServers": [
+    "stage4",
+    "stage1",
+    "stage-branch2",
+    "stage-branch",
+    "stage-mem"
+  ],
+  "jenkinsServers": {
+    "build": "jenkins.npr.org",
+    "test": "higgins.npr.org"
+  },
+  "environments": {
+    "stage1": {
+      "build_jobs": [
+        {
+          "name": "stage1 - Merge, Update Code and Database"
         },
-        "stage4": {
-            "build_jobs": [{
-                "name": "stage4 - CI - www"
-            }, {
-                "name": "stage4 - CI - Seamus"
-            }],
-            "test_jobs": [{
-                "folder": "Stage4_WWW",
-                "name": "_Stage4_Api_Master"
-            }, {
-                "folder": "Stage4_WWW",
-                "name": "_Stage4_Carbon_Master"
-            }, {
-                "folder": "Stage4_Seamus",
-                "name": "_Stage4_Seamus_Master"
-            }]
+        {
+          "name": "stage1 - Update Code"
         }
+      ],
+      "test_jobs": [
+        {
+          "folder": "Stage1_WWW",
+          "name": "_Stage1_Api_Master"
+        },
+        {
+          "folder": "Stage1_WWW",
+          "name": "_Stage1_Carbon_Master"
+        },
+        {
+          "folder": "Stage1_Seamus",
+          "name": "_Stage1_Seamus_Master"
+        }
+      ]
+    },
+    "stage4": {
+      "build_jobs": [
+        {
+          "name": "stage4 - CI - www"
+        },
+        {
+          "name": "stage4 - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder": "Stage4_WWW",
+          "name": "_Stage4_Api_Master"
+        },
+        {
+          "folder": "Stage4_WWW",
+          "name": "_Stage4_Carbon_Master"
+        },
+        {
+          "folder": "Stage4_Seamus",
+          "name": "_Stage4_Seamus_Master"
+        }
+      ]
     },
     "stage-branch": {
-        "build_jobs": [{
-            "name": "stage-branch - CI - www"
-        }, {
-            "name": "stage-branch - CI - Seamus"
-        }],
-        "test_jobs": [{
-            "folder": "StageBranch_Seamus",
-            "name": "_StageBranch_Seamus_Master"
-        }]
+      "build_jobs": [
+        {
+          "name": "stage-branch - CI - www"
+        },
+        {
+          "name": "stage-branch - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder": "StageBranch_Seamus",
+          "name": "_StageBranch_Seamus_Master"
+        }
+      ]
     },
     "stage-branch2": {
-        "build_jobs": [{
-            "name": "stage-branch2 - CI - www"
-        }, {
-            "name": "stage-branch2 - CI - Seamus"
-        }],
-        "test_jobs": [{
-            "folder": "StageBranch2_WWW",
-            "name": "_StageBranch2_Api_Master"
-        }, {
-            "folder": "StageBranch2_WWW",
-            "name": "_StageBranch2_Carbon_Master"
-        }]
+      "build_jobs": [
+        {
+          "name": "stage-branch2 - CI - www"
+        },
+        {
+          "name": "stage-branch2 - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder": "StageBranch2_WWW",
+          "name": "_StageBranch2_Api_Master"
+        },
+        {
+          "folder": "StageBranch2_WWW",
+          "name": "_StageBranch2_Carbon_Master"
+        }
+      ]
     },
     "stage-mem": {
-        "build_jobs": [{
-            "name": "stage-mem - CI - www"
-        }, {
-            "name": "stage-mem - CI - Seamus"
-        }],
-        "test_jobs": [{
-            "folder": "StageMem_WWW",
-            "name": "_StageMem_Api_Master"
-        }, {
-            "folder": "StageMem_WWW",
-            "name": "_StageMem_Carbon_Master"
-        }]
+      "build_jobs": [
+        {
+          "name": "stage-mem - CI - www"
+        },
+        {
+          "name": "stage-mem - CI - Seamus"
+        }
+      ],
+      "test_jobs": [
+        {
+          "folder": "StageMem_WWW",
+          "name": "_StageMem_Api_Master"
+        },
+        {
+          "folder": "StageMem_WWW",
+          "name": "_StageMem_Carbon_Master"
+        }
+      ]
     }
+  }
 }
