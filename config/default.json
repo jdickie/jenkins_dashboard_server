@@ -1,10 +1,7 @@
 {
   "allServers": [
     "stage4",
-    "stage1",
-    "stage-branch2",
-    "stage-branch",
-    "stage-mem"
+    "stage1"
   ],
   "jenkinsServers": {
     "build": "jenkins.npr.org",
