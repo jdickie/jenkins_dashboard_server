@@ -23,15 +23,15 @@
       "test_jobs": [
         {
           "folder" : "Stage1_WWW",
-          "name" : "WWW Api Tests for Stage1 :: Higgins"
+          "name" : "_Stage4_Api_Master"
         },
         {
           "folder" : "Stage1_WWW",
-          "name" : "Carbon API Tests for Stage1 :: Higgins"
+          "name" : "_Stage4_Carbon_Master"
         },
         {
           "folder" : "Stage1_Seamus",
-          "name" : "Seamus Tests for Stage1 :: Higgins"
+          "name" : "_Stage4_Seamus_Master"
         }
       ]
     },
